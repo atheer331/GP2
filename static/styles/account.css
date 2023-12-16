@@ -1,0 +1,94 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dashboard-element {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    margin: 1rem;
+}
+
+.dashboard-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-value {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Add this to your CSS file */
+/* Add this to your CSS file */
+
+form {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+label, select, input, button {
+    margin-right: 10px; /* Adjust the margin for spacing between elements */
+}
+
+.load-dashboard-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#monthYearInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Style the label for the calendar input */
+#monthYearInputLabel {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block; /* Ensure it's displayed as a block to control spacing */
+}
+
+/* Add this to your CSS file */
+.load-dashboard-button {
+    background-color: #5b5161; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#knowledgePieChart,
+#histogramChart {
+    width: 100%; /* Set the width to 100% to fit the container */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    display: block; /* Ensure the chart is displayed as a block element */
+}
+
+.dashboard-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin between rows as needed */
+}
