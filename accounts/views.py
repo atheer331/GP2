@@ -225,6 +225,22 @@ def userLogin(request):
         if user2.email_verified:
             if user is not None:
                 login(request, user)#create session
+                if request.user.is_Seeker:
+                    if user.seeker.cv:
+                        return redirect('account')
+                    else: 
+                       return redirect('edit-account')
+                    
+                if request.user.is_Recruiter:
+                    if user.recruiter.organization:
+                        return redirect('account')
+                    else: 
+                       return redirect('edit-account')
+
+
+                    
+
+              
                 return redirect('account')
 
             else:
