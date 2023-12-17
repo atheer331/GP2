@@ -43,13 +43,15 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,sqlite&theme=light)](https://skillicons.dev)
 
 
-## login credentials:
+## Login credentials:
 ### job seeker
 email: firstcvmohammed@gmail.com
+
 password: Hiralprojectcv1
 
 ### recruiter 
 email: atheerh188@gmail.com
+
 password: Rec12121
 
 ## Launching Instructions
