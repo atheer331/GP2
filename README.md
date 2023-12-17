@@ -50,6 +50,7 @@
 
  #### 1- Clone the repository
  Step 1: Open the Command Prompt/Terminal Open the command prompt (Windows) or terminal (macOS/Linux) on your machine.
+ 
  Step 2: Navigate to the Project Folder Use the cd command to navigate to the folder where you have downloaded Hiral project. For example:
  ~~~
  cd /path/to/your/django/project
@@ -58,6 +59,20 @@
  ~~~~
  code .
  ~~~~
+ This command opens the current directory in VSCode.
+
+ Step 4: Close the Machine Terminal Once Visual Studio Code opens with your project, you can close the machine terminal as we will be using the integrated terminal within VSCode.
+
+Step 5: Open the Integrated Terminal in VSCode Click on the “Terminal” tab at the top of Visual Studio Code. A drop-down menu will appear. Select “New Terminal” from the options. This will open the integrated terminal at the bottom of the editor.
+
+<img width="500" alt="image" src="https://github.com/atheer331/GP2/assets/112808349/7ae40e07-2b9c-44b8-a367-e6d232858f21">
+
+
+ Step 4: Close the Machine Terminal Once Visual Studio Code opens with your project, you can close the machine terminal as we will be using the integrated terminal within VSCode.
+
+ Step 5: Open the Integrated Terminal in VSCode Click on the “Terminal” tab at the top of Visual Studio Code. A drop-down menu will appear. Select “New Terminal” from the options. This will open the integrated terminal at the bottom of the editor.
+
+
 
 
  #### 2- Install python3
