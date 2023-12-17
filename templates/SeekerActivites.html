@@ -8,6 +8,7 @@
 
 <div class="settings">
   <h3 class="settings__title">Received Proposals</h3>
+  
   <a class="tag tag--pill tag--sub settings__btn tag--lg" href="{% url 'all-offers-sek'  %}"><i class="im im-plus"></i> View all proposals</a>
 </div>
 </div>
@@ -17,6 +18,7 @@
         
   <div class="container">
     <div class="grid grid--three">
+      {% if offers%}
       {% for offer in offers %}
       {% if forloop.counter <= 3 and offer %}
      
@@ -46,6 +48,11 @@
        
       {% endif %}
       {% endfor %}
+      {%else%}
+      <p class="dev__info">
+        you didn't recive any proposals
+      </p>
+      {% endif %}
 
 
      
@@ -69,6 +76,7 @@
         
   <div class="container">
     <div class="grid grid--three">
+      {% if applications %}
       {% for application in applications %}
       {% if forloop.counter <= 3 and application%}
       <div class="column card">
@@ -97,6 +105,11 @@
       
       {% endif %}
       {% endfor %}
+      {%else%}
+      <p class="dev__info">
+        you didn't apply to any job yet
+      </p>
+      {% endif %}
     
 
      

@@ -18,6 +18,7 @@
         
   <div class="container">
     <div class="grid grid--three">
+      {% if applications%}
       {% for offer in applications %}
       {% if forloop.counter <= 3 and offer %}
      
@@ -56,6 +57,11 @@
       </div>
       {% endif %}
       {% endfor %}
+      {%else%}
+      <p class="dev__info">
+        you haven't Received any job applications yet
+      </p>
+      {% endif %}
 
 
      
@@ -77,6 +83,7 @@
         
   <div class="container">
     <div class="grid grid--three">
+      {%if offers%}
       {% for offer in offers %}
       {% if forloop.counter <= 3 and offer%}
      
@@ -113,6 +120,11 @@
       </div>
       {% endif %}
       {% endfor %}
+      {%else%}
+      <p class="dev__info">
+        you haven't sent any job proposal yet
+      </p>
+      {% endif %}
 
 
      
