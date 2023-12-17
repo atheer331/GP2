@@ -49,16 +49,20 @@
  To launch the code using Visual Studio Code, you must do the following: 
 
  #### 1- Clone the repository
- #### 2- Create your own virtual environment
+ #### 2- Install python3
+ ~~~
+ pip install python3-pip
+ ~~~
+ #### 3- Create your own virtual environment
  ~~~
  python3 -m venv venv
  source venv/bin/activate
  ~~~
- #### 3- Install the requirements
+ #### 4- Install the requirements
  ~~~
 pip install -r requirements2.txt
  ~~~
- #### 4- Run server
+ #### 5- Run server
  ~~~
 python manage.py runserver
  ~~~
