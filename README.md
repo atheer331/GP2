@@ -43,9 +43,6 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,sqlite&theme=light)](https://skillicons.dev)
 
 
-## Launching Instructions
-
-
 ## login credentials:
 ### job seeker
 email: firstcvmohammed@gmail.com
@@ -55,6 +52,7 @@ password: Hiralprojectcv1
 email: atheerh188@gmail.com
 password: Rec12121
 
+## Launching Instructions
 
  To launch the code using Visual Studio Code, you must do the following: 
 
