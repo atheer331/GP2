@@ -21,6 +21,7 @@
       <a href="#getting-started"> Getting Started </a>
       <ul>
         <li> <a href="#technology">Technology </a> </li>
+        <li> <a href="#technology">Credentials: </a> </li>
         <li> <a href="#launching-instructions">Launching Instructions </a> </li>
       </ul>
 </details>
@@ -42,9 +43,18 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,sqlite&theme=light)](https://skillicons.dev)
 
 
-
-
 ## Launching Instructions
+
+
+## login credentials:
+### job seeker
+email: firstcvmohammed@gmail.com
+password: Hiralprojectcv1
+
+### recruiter 
+email: atheerh188@gmail.com
+password: Rec12121
+
 
  To launch the code using Visual Studio Code, you must do the following: 
 
