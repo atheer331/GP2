@@ -49,6 +49,17 @@
  To launch the code using Visual Studio Code, you must do the following: 
 
  #### 1- Clone the repository
+ Step 1: Open the Command Prompt/Terminal Open the command prompt (Windows) or terminal (macOS/Linux) on your machine.
+ Step 2: Navigate to the Project Folder Use the cd command to navigate to the folder where you have downloaded Hiral project. For example:
+ ~~~
+ cd /path/to/your/django/project
+ ~~~
+ Step 3: In the terminal, enter the following command to open your Django project in Visual Studio Code:
+ ~~~~
+ code .
+ ~~~~
+
+
  #### 2- Install python3
  ~~~
  pip install python3-pip
