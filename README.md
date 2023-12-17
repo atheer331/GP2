@@ -21,6 +21,7 @@
       <a href="#getting-started"> Getting Started </a>
       <ul>
         <li> <a href="#technology">Technology </a> </li>
+       <li> <a href="#technology">Hosting link: </a> </li>
         <li> <a href="#technology">Credentials: </a> </li>
         <li> <a href="#launching-instructions">Launching Instructions </a> </li>
       </ul>
@@ -42,6 +43,7 @@
 [![My Skills](https://skillicons.dev/icons?i=python,django&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=vscode,sqlite&theme=light)](https://skillicons.dev)
 
+## Hosting link
 
 ## Login credentials:
 ### job seeker
