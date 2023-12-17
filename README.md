@@ -45,14 +45,16 @@
 
 ## Login credentials:
 ### job seeker
-email: firstcvmohammed@gmail.com
 
-password: Hiralprojectcv1
+  email: firstcvmohammed@gmail.com
+
+  password: Hiralprojectcv1
 
 ### recruiter 
-email: atheerh188@gmail.com
 
-password: Rec12121
+  email: atheerh188@gmail.com
+
+  password: Rec12121
 
 ## Launching Instructions
 
