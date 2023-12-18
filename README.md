@@ -44,6 +44,7 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,sqlite&theme=light)](https://skillicons.dev)
 
 ## Hosting link
+<a href="http://24.144.86.213/accounts/login/">http://24.144.86.213/accounts/login/</a>
 
 ## Login credentials:
 ### job seeker
