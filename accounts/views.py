@@ -115,9 +115,8 @@ def tokenize_cv(cv_file):
     doc = nlp(cv_text)
     
     tokens = [token.text.lower() for token in doc if not token.is_stop and not token.is_punct]
-    entities = [entity.text.lower() for entity in doc.ents if entity.label_ == 'PRODUCT']
     
-    return tokens + entities
+    return tokens
 
 
 def preprocess_skills(skill_dict):
